@@ -1,5 +1,109 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nunmaan Virtual Tamil School</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9; /* Light grey background */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 800px;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            border-radius: 8px;
+        }
+
+        h1 {
+            color: #007bff; /* Blue for the main title */
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #333; /* Dark grey for section titles */
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            color: #555; /* Medium grey for paragraphs */
+            line-height: 1.6;
+        }
+
+        .parent-testimonials {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+
+        .testimonial {
+            width: 30%;
+            min-width: 200px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .made-with{
+            color: #888;
+            font-size: 0.8em;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                width: 95%;
+            }
+            .testimonial{
+                width: 90%;
+            }
+        }
+    </style>
+</head>
 <body>
-  <p>Welcome...</p>
+    <div class="container">
+        <h1>Nunmaan Virtual Tamil School</h1>
+        <h2>வண்ான் தமிழ் கல்விக்கழகம்</h2>
+        <h2>Nunmaan Tamil Academy</h2>
+
+        <h2>Our Mission</h2>
+        <p> [Your Mission Text Here] </p>
+
+        <h2>Our Vision</h2>
+        <p> [Your Vision Text Here] </p>
+
+        <h2>What we offer</h2>
+        <p>courses and support</p>
+
+        <h2>Hear from our awesome parents!</h2>
+        <div class="parent-testimonials">
+            <div class="testimonial">
+                <p>Alice Johnson</p>
+                <p>[Testimonial Text Here]</p>
+            </div>
+            <div class="testimonial">
+                <p>Dr. Mark Les</p>
+                <p>[Testimonial Text Here]</p>
+            </div>
+            <div class="testimonial">
+                <p>Sandra White</p>
+                <p>[Testimonial Text Here]</p>
+            </div>
+        </div>
+        <p class="made-with">Made with Visily</p>
+    </div>
 </body>
 </html>
