@@ -5,7 +5,21 @@
 	<link href="https://fonts.googleapis.com/css?family=Archivo&display=swap" rel="stylesheet" />
 	<link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
 	<link href="./css/main.css" rel="stylesheet" />
-	<title>Document</title>
+	<title>Nunmaan Virtual Tamil Academy</title>
+	<script>
+  fetch('header.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('header-include').innerHTML = data;
+    });
+
+	fetch('footer.html')
+		.then(response => response.text())
+		.then(data => {
+			document.querySelector('.v3312_110').innerHTML = data;
+		})
+		.catch(error => console.error('Error loading footer:', error));
+</script>
 </head>
 
 <body>
@@ -125,112 +139,17 @@
 				<span class="v3312_79">Exceptional support and resources.</span>
 			</div>
 		</div>
-		<div class="v3312_80">
-			<div class="v3312_82"><span class="v3312_98">Enroll Now</span>
-				<div class="v3312_83">
-					<div class="v3312_84">
-						<div class="v3312_85">
-							<div class="v3312_86">
-								<div class="v3312_87"></div>
-							</div>
-							<div class="v3312_88">
-								<div class="v3312_89"></div>
-							</div>
-							<div class="v3312_90">
-								<div class="v3312_91"></div>
-							</div>
-							<div class="v3312_92">
-								<div class="v3312_93"></div>
-							</div>
-							<div class="v3312_94">
-								<div class="v3312_95"></div>
-							</div>
-							<div class="v3312_96">
-								<div class="v3312_97"></div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>			<div class="v3312_7"></div>
 
-			<div class="v3312_100">
-				<div class="v3312_106"><span class="v3312_107">Contact</span></div>
-				<div class="v3312_104"><span class="v3312_105">About Us</span></div>
-				<div class="v3312_101">
-					<div class="v3312_103"></div><span class="v3312_102">Home</span>
-				</div>
-				<div class="v3312_108"><span class="v3312_109">Schedules & Events</span></div>
-			</div>
+		<!-- include header.html -->
+		<div class="v3312_80">
+			<div id="header-include"></div>
 		</div>
-		<div class="v3312_110"><span class="v3312_111">Contact us</span><span class="v3312_112">FAQs</span><span
-				class="v3312_113">Careers</span>
-			<div class="v3312_114"><span class="v3312_115">English</span>
-				<div class="v3312_116">
-					<div class="v3312_117">
-						<div class="v3312_118">
-							<div class="v3312_119">
-								<div class="v3312_120"></div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div><span class="v3312_121">© 2025 Nunmaan Tamil Academy. • Privacy • Terms • Sitemap</span><span
-				class="v3312_122">Subscribe to our newsletter</span>
-			<div class="v3312_123"><span class="v3312_124">Input your email</span>
-				<div class="v3312_125">
-					<div class="v3312_126">
-						<div class="v3312_127">
-							<div class="v3312_128">
-								<div class="v3312_129"></div>
-							</div>
-							<div class="v3312_130">
-								<div class="v3312_131"></div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="v3312_132"><span class="v3312_133">Subscribe</span></div>
-			<div class="v3312_134">
-				<div class="v3312_135">
-					<div class="v3312_136">
-						<div class="v3312_137">
-							<div class="v3312_138"></div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="v3312_139">
-				<div class="v3312_140">
-					<div class="v3312_141">
-						<div class="v3312_142">
-							<div class="v3312_143"></div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="v3312_144">
-				<div class="v3312_145">
-					<div class="v3312_146">
-						<div class="v3312_147">
-							<div class="v3312_148"></div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="v3312_149">
-				<div class="v3312_150">
-					<div class="v3312_151">
-						<div class="v3312_152">
-							<div class="v3312_153"></div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="v3312_154"></div><span class="v3312_155">About us</span>
-			<!-- <span class="v3312_156">Pricing</span> -->
-			<div class="v3312_157"></div><span class="v3312_158">Nunmaan Virtual Tamil School </span>
-		</div><span class="v3312_159">What we offer</span>
+
+	<!-- include footer.html -->
+	<div class="v3312_110">
+	</div>
+		
+		<span class="v3312_159">What we offer</span>
 		<div class="v3312_160"><span class="v3312_161">Enroll Now</span></div>
 	</div>
 </body>
