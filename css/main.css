@@ -1310,7 +1310,7 @@ body {
   opacity: 1;
   position: absolute;
   top: 347px;
-  left: 132px;
+  left: 3%;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
   border-bottom-left-radius: 6px;
@@ -1388,11 +1388,11 @@ body {
   left: 0px;
 }
 .v3312_121 {
-  width: 443px;
+  width: 500px;
   color: rgba(255,255,255,1);
   position: absolute;
   top: 354px;
-  left: 495px;
+  left: 30%;
   font-family: Inter;
   font-weight: Regular;
   font-size: 14px;
