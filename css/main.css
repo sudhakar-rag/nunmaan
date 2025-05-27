@@ -90,7 +90,6 @@ body {
   opacity: 1;
   position: absolute;
   top: 25%;
-  left: 24px;
   overflow: hidden;
 }
 .v3312_9 {
@@ -936,12 +935,16 @@ body {
   color: rgba(255,255,255,1);
   position: absolute;
   top: 7px;
-  left: 55px;
+  left: 40px;
   font-family: Inter;
   font-weight: Regular;
   font-size: 14px;
   opacity: 1;
   text-align: left;
+}
+.v3312_82:hover {
+  background: rgba(99,106,232,0.8);
+  cursor: pointer;
 }
 .v3312_83 {
   width: 16px;
@@ -1125,13 +1128,13 @@ body {
   text-align: left;
 }
 .v3312_100 {
-  width: 457px;
+  width: 300px;
   height: 52px;
   background: rgba(0,0,0,0);
   opacity: 1;
   position: absolute;
   top: 3px;
-  left: 665px;
+  left: 67%;
   overflow: hidden;
 }
 .v3312_106 {
@@ -1159,6 +1162,7 @@ body {
   font-size: 14px;
   opacity: 1;
   text-align: left;
+  cursor: pointer;
 }
 .v3312_104 {
   width: 104px;
@@ -1858,6 +1862,7 @@ body {
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
   overflow: hidden;
+  cursor: pointer;
 }
 .v3312_161 {
   width: 100px;
@@ -1870,4 +1875,28 @@ body {
   font-size: 18px;
   opacity: 1;
   text-align: left;
+}
+.scrollable-testimonials {
+    max-height: 220px; /* Adjust height as needed */
+    overflow: hidden;
+    position: relative;
+}
+
+.scrollable-testimonials .scroll-content {
+    display: flex;
+    flex-direction: column;
+    animation: scroll-vertical 12s linear infinite;
+    gap: 24px; /* Optional: space between testimonials */
+}
+
+@keyframes scroll-vertical {
+    0% {
+        transform: translateY(0);
+    }
+    90% {
+        transform: translateY(-66%);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }

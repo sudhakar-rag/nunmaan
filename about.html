@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Archivo&display=swap" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
+	<link href="./css/main.css" rel="stylesheet" />
+	<title>Nunmaan Virtual Tamil Academy</title>
+	<script>
+  fetch('header.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('header-include').innerHTML = data;
+    });
+
+	fetch('footer.html')
+		.then(response => response.text())
+		.then(data => {
+			document.querySelector('.v3312_110').innerHTML = data;
+		})
+		.catch(error => console.error('Error loading footer:', error));
+
+	function openLink(link) {
+		window.open(link, "_blank");
+	}
+</script>
+</head>
+
+<body>
+	<div class="v3312_2">
+
+		<!-- include header.html -->
+		<div class="v3312_80">
+			<div id="header-include"></div>
+		</div>
+        <div class="content"> About us</div>
+        <!-- include footer.html -->
+        <div class="v3312_110">
+        </div>
+    </div>
+</body>
+
+</html>

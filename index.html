@@ -19,6 +19,10 @@
 			document.querySelector('.v3312_110').innerHTML = data;
 		})
 		.catch(error => console.error('Error loading footer:', error));
+
+	function openLink(link) {
+		window.open(link, "_blank");
+	}
 </script>
 </head>
 
@@ -45,6 +49,9 @@
 			<div class="v3312_14"></div>
 			<div class="v3312_15"></div>
 		</div>
+
+
+		<!-- Testimonials section -->
 		<div class="v3312_16">
 			<span class="v3312_33">Hear from our awesome parents !</span>
 			<div class="v3312_17">
@@ -138,6 +145,29 @@
 				</div> -->
 				<span class="v3312_79">Exceptional support and resources.</span>
 			</div>
+			<div class="v3312_64">
+				<div class="v3312_65">
+					<div class="v3312_66"></div>
+				</div><span class="v3312_67">Sandra White</span>
+				<!-- <div class="v3312_68">
+					<div class="v3312_69">
+						<div class="v3312_70"></div>
+					</div>
+					<div class="v3312_71">
+						<div class="v3312_72"></div>
+					</div>
+					<div class="v3312_73">
+						<div class="v3312_74"></div>
+					</div>
+					<div class="v3312_75">
+						<div class="v3312_76"></div>
+					</div>
+					<div class="v3312_77">
+						<div class="v3312_78"></div>
+					</div>
+				</div> -->
+				<span class="v3312_79">Exceptional support and resources.</span>
+			</div>
 		</div>
 
 		<!-- include header.html -->
@@ -150,7 +180,7 @@
 	</div>
 		
 		<span class="v3312_159">What we offer</span>
-		<div class="v3312_160"><span class="v3312_161">Enroll Now</span></div>
+		<div class="v3312_160" onclick="openLink('https://nunmaan.org/register-form')"><span class="v3312_161">Enroll Now</span></div>
 	</div>
 </body>
 
